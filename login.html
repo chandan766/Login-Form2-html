@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script type="text/javascript" src="login.js"></script>
+
+</head>
+
+<body>
+    <div class="center">
+        <h1>Login</h1>
+        <form method="post">
+            <div class="txt_field">
+                <input type="text" required id="usrname">
+                <span></span>
+                <label>Username</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" required id="passw">
+                <span></span>
+                <label>Password</label>
+            </div>
+            <div class="pass">Forget Password?</div>
+            <input type="submit" value="Login" onclick="login_data()">
+            <div class="signup_link">
+                Not a member? <a href="#"><span></span> Signup</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
